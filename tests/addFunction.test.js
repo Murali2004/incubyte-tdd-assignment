@@ -1,5 +1,6 @@
 import {add} from "../src/addfunction.js"
-test('returns sum for two comma-separated numbers', () => {
-  expect(add("1,2")).toBe(3);
+test('handles multiple comma-separated numbers', () => {
+  expect(add("1,2,3,4")).toBe(10);
 });
+
 
